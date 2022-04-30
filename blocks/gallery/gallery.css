@@ -1,10 +1,6 @@
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-    justify-content: center;
-    /* display: grid;
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 16px; */
+    gap: 16px;
 }
