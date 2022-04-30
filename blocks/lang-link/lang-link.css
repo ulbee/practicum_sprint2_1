@@ -1,0 +1,10 @@
+.lang-link {
+    padding-right: 18px;
+
+    color: #fff;
+    text-decoration: none;
+}
+
+.lang-link:last-of-type {
+    padding-right: 0;
+}

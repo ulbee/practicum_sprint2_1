@@ -1,0 +1,8 @@
+.article__paragraph {
+    margin: 0;
+    padding-bottom: 26px;
+}
+
+.article__paragraph:last-of-type {
+    padding-bottom: 0;
+}
