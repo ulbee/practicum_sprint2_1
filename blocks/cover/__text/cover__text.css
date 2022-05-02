@@ -1,8 +1,15 @@
 .cover__text {
     position: absolute;
-    top: 245px;
+    /* TODO скорее всего переверстать блок из-за разного расположения текста при разных экранах */
+    /* top: 245px; */
     z-index: 1;
     width: calc(100% - 48px*2);
 
     text-align: center;
+}
+
+@media screen and (max-width: 1100px) {
+    .cover__text {
+        width: 100%;
+    }
 }
