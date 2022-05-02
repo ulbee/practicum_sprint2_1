@@ -1,5 +1,4 @@
 .lead {
-    max-width: calc(984px + 48px*2);
-    margin: 0 auto;
+    max-width: calc(984px + 48px*2);    
     padding-top: 56px;
 }
