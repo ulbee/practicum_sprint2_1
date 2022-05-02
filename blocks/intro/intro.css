@@ -1,4 +1,4 @@
 .intro {
-    max-width: 984px;
+    max-width: calc(984px + 48px*2);
     margin: 92px auto;
 }

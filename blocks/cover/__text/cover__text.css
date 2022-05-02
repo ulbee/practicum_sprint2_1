@@ -2,7 +2,7 @@
     position: absolute;
     top: 245px;
     z-index: 1;
-    width: 100%;
+    width: calc(100% - 48px*2);
 
     text-align: center;
 }
