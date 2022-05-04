@@ -1,9 +1,5 @@
-.place__url {
-    align-self: end;
-}
-
 @media screen and (max-width: 680px) {
-    .place__url {
+    .place__text {
         padding: 0 16px;
     }
 }
