@@ -12,9 +12,13 @@
     padding-right: 0;
 }
 
+.lang-link:hover {
+    opacity: .8;
+}
+
 @media screen and (max-width: 680px) {
     .lang-link {
         font-size: 18px;
         line-height: 20px;
     }
- }
+}

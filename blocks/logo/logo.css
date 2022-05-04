@@ -3,5 +3,13 @@
     height: 52px;
 
     background: url(../../images/__logo.svg) no-repeat;
+    background-size: contain;
     flex-grow: 1;
 }
+
+@media screen and (max-width: 680px) {
+    .logo {
+        width: 142px;
+        height: 42px;        
+    }
+ }

@@ -11,5 +11,14 @@
 @media screen and (max-width: 680px) {
     .footer__links {
         flex-direction: column;
+        gap: 0;
+    }
+
+    .footer__links li {
+        margin-bottom: 32px;
+    }
+
+    .footer__links li:last-of-type {
+        margin-bottom: 48px;
     }
 }
