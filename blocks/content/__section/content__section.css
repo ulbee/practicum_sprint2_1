@@ -1,18 +1,20 @@
 .content__section {
     width: 100%;
     box-sizing: border-box;
-    padding: 0 48px 92px 48px;
-    margin: 0 auto;
+    padding: 0 48px;
+    margin: 0 auto 92px 0;
 }
 
 @media screen and (max-width: 984px) {
     .content__section {
-        padding: 0 24px 88px; 
+        padding: 0 24px; 
+        margin-bottom: 88px;
     }
 }
 
 @media screen and (max-width: 680px) {
     .content__section {
-        padding: 0 16px 64px; 
+        padding: 0 16px; 
+        margin-bottom: 64px;
     }
  }
